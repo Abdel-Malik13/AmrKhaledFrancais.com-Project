@@ -1,7 +1,0 @@
-- http://www.editions-eni.fr/livres/apprenez-les-langages-html5-css3-et-javascript-pour-creer-votre-premier-site-web/.3eb8c982547e75bc471f3a6370075e09.html?xtor=ES-2840-[Nouveautes-Septembre-NQ]
-
-- http://www.dunod.com/informatique-multimedia/developpement/developpement-web/html5
-
-- http://www.eyrolles.com/Informatique/Livre/mise-en-page-html5-et-css3-pour-des-sites-responsive-web-design-9782746089334
-
-- http://www.eyrolles.com/Informatique/Livre/html5-css3-et-api-javascript-9782746089235
