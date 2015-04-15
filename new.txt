@@ -1,0 +1,13 @@
+- Créer une div id="conteneur" d'une largeur de 1024px et d'une hauteur de 3000px. Centrer le conteneur avec Margin-left: auto et Margin-right: auto.
+
+- Créer une div class="nav-haut" d'une largeur de 1024px et d'une hauteur de 62px. Créer 2 div dans "nav-haut"
+	- Créer une div class="logo" d'une largeur de 185px et d'une hauteur de 62px. Mettre cette div en float:left. Mettre le titre du site dans un H1.
+	- Crée une div class="navigation" d'une largeur de 495px et d'une hauteur de 62px. Mettre en float: right
+
+
+- Créer une div class="header" d'une largeur de 1024px et d'une hauteur de 261px.
+	- Créer une div class="présentation" d'une largeur de 479px et d'une hauteur de 234px et la mettre en display: inline-block.
+	   mettre un titre H2 et un paragraphe.
+	- Créer une div class="video-presentation" d'une largeur de 325px t d'une hauteur de 202px et mettre en display: inline-block.
+
+- Créer une div class="nav-bas" d'une largeur de 1024px et d'une hauteur de 41px.

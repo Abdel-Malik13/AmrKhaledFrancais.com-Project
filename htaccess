@@ -1,0 +1,25 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteBase /
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^amrkhaledfrancais.com$
+RewriteRule ^(.*) http://www.amrkhaledfrancais.com/$1  [QSA,L,R=301]
+
+Redirect permanent /un-sourire-espoir1/index.php http://www.amrkhaledfrancais.com/index.php
+Redirect permanent /un-sourire-espoir3/index.php http://www.amrkhaledfrancais.com/index.php
+
+Redirect permanent /histoires_du_coran.php http://www.amrkhaledfrancais.com/histoires-du-coran.php
+Redirect permanent /un_sourire_espoir.php http://www.amrkhaledfrancais.com/un-sourire-espoir.php
+Redirect permanent /un_sourire_espoir3/saison3.php http://www.amrkhaledfrancais.com/un-sourire-espoir3/saison3.php
+Redirect permanent /le_paradis_dans_nos_maisons.php http://www.amrkhaledfrancais.com/le-paradis-dans-nos-maisons.php
+Redirect permanent /conferences_et_discours/que_faire_quand_ca_va_mal.php http://www.amrkhaledfrancais.com/conferences-et-discours/que-faire-quand-ca-va-mal.php
+
+/* Redirection temporaire */
+Redirect /autres-emissions.php http://www.amrkhaledfrancais.com/index.php
+
+
+#RewriteCond %{REMOTE_ADDR} !^127.0.0.1$
+#RewriteCond %{REMOTE_ADDR} !^111.111.111.111$
+RewriteCond %{REQUEST_URI} !/maintenance\.html$ [NC]
+RewriteCond %{REQUEST_URI} !\.(jpg|jpeg|png|gif|css|ico|js)$ [NC]
+RewriteRule ^(.*)$ /maintenance.html [R=302,L]

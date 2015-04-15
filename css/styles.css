@@ -1,0 +1,257 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body                                                                                                        {background-color: #cd2901; font-family: Arial, serif, sans-serif; font-size: 1em; margin:0; padding:0;}
+
+#conteneur                                                                                                  {background-color: rgb(55,55,55); width: 1024px; height: auto; margin-left: auto; margin-right: auto;}
+
+/* *******************************
+ ********* Navigation haut *******
+ ******************************* */
+
+.nav-haut                                                                                                   {background-color: #1a1d26; width: 1024px; height: 62px;}
+
+.nav-haut .logo                                                                                             {width: 280px; height: 62px; float: left;}
+
+.nav-haut .logo h2                                                                                          {font-weight: normal; color: white; font-size: 1em; line-height: 62px; margin:0; text-align: center;}
+
+.nav-haut .navigation                                                                                       {width: 650px; height: 62px; float: right; font-size: 1em;}
+
+.nav-haut .navigation ul                                                                                    {list-style: none; font-size: 14px; line-height: 31px;}
+
+.nav-haut .navigation ul li                                                                                 {display: inline; margin-left: 15px;}
+
+.nav-haut .navigation ul li a                                                                               {color: white; text-decoration: none;}
+
+.nav-haut .navigation ul li a:hover                                                                         {text-decoration: underline; background-color: #891e03; padding: 6px; border-radius: 5px; transition-property: all; transition-duration: 1s;transition-timing-function: ease-out;}
+
+/* *******************************
+ ********* HEADER *******
+ ******************************* */
+
+.header                                                                                                     {background-color: #9b2001; width: 1024px; height: 261px;}
+
+.header .presentation                                                                                       {width: 479px; height: 234px; display: inline-block; margin-top: 8px; margin-left: 50px; padding: 5px;}
+
+.header .presentation h1                                                                                    {font-size: 1.1em; margin:0; text-align: center;}
+
+.header .presentation p                                                                                     {color: white; font-size: 0.8em; text-align: justify;}
+
+.header .video-presentation                                                                                 {width: 400px; height: 240px; display: inline-block; margin-top: 10px; vertical-align: top; float: right; margin-right: 50px;}
+
+/* *******************************
+ ********* Navigation Bas ********
+ ******************************* */
+
+.nav-bas                                                                                                    {background-color: #1a1d26; width: 1024px; height: 41px; clear: both;}
+
+.nav-bas ul                                                                                                 {font-size: 10px; margin:0; line-height: 38px; list-style: none; text-align: center;}
+
+.nav-bas ul li                                                                                              {display: inline; margin-left: 10px;}
+
+.nav-bas li a                                                                                               {color: white; background-color: #921f03; padding: 5px; border-radius: 5px; text-decoration: none;}
+
+.nav-bas li a:hover                                                                                         {text-decoration: underline; background-color: #891e03; padding: 5px;}
+
+.nav-bas li a.no-acces, a.no-access                                                                         {cursor: not-allowed;}
+
+/* *******************************
+ ******** Bloc Page Accueil ******
+ ******************************* */
+
+.bloc-page                                                                                                  {background-color: #e5e5e5; width: 1024px; height: auto; margin:0; overflow: hidden;}
+
+.bloc-page .episodes-page-accueil                                                                           {background-color: rgb(27, 27, 27); width: 856px; height: auto; margin-left: auto; margin-right: auto; margin-top: 20px;}
+
+.bloc-page .episodes-page-accueil .header-section                                                           {background: -moz-linear-gradient( #a52101,#c52600); background: -webkit-linear-gradient( #a52101,#c52600); background: -ms-linear-gradient( #a52101,#c52600); background: -o-linear-gradient( #a52101,#c52600); background: linear-gradient( #a52101,#c52600); box-shadow: 0px 0px 2px #000; width: 856px; height: 44px;}
+
+.bloc-page .episodes-page-accueil .header-section h2                                                        {font-size: 1em; margin:0; color: #000000; text-align: center; line-height: 40px; font-weight: normal;}
+
+.bloc-page .episodes-page-accueil .header-section h1                                                        {font-size: 1.2em; margin:0; color: #000000; text-align: center; line-height: 40px; font-weight: normal;}
+
+.bloc-page .episodes-page-accueil .img-accueil-episode                                                      {width: 856px; height: auto;}
+
+.bloc-page .episodes-page-accueil .img-accueil-episode figure                                               {width: 214px; height: 161px; margin:0; display: inline;}
+
+.bloc-page .episodes-page-accueil .img-accueil-episode figure a img                                         {border:none;}
+
+.bloc-page .episodes-page-accueil .img-accueil-episode figure a:hover                                       {background-color: #a52101; width: 214px; height: 176px;}
+
+.bloc-page .episodes-page-accueil .footer-episode-accueil                                                   {background-color: #dcdcdc; box-shadow: 0px 0px 10px #000; width: 856px; height: 53px; margin-bottom: 15px;}
+
+.bloc-page .episodes-page-accueil .footer-episode-accueil .voir-plus-episode                                {background-color: #292929; width: 175px; height: 30px; margin: 0; float: right; border-radius: 20px; margin-top: 15px; margin-right: 15px;}
+
+.bloc-page .episodes-page-accueil .footer-episode-accueil .voir-plus-episode h3                             {line-height: 1px; text-align: center; font-size: 1em; font-weight: normal; color: white;}
+
+
+/* *******************************
+ ****** Bloc Autres Emissions ****
+ ******************************* */
+
+.bloc-autres-emissions                                                                                      {width: 856px; height: 448px; margin-left: auto; margin-right: auto; margin-bottom: 80px;}
+
+.bloc-autres-emissions .bloc1                                                                               {background-color: rgb(55,55,55); width: 210px; height: auto; display: inline-block; vertical-align: top;}
+
+.bloc-autres-emissions .bloc1 h2                                                                            {background-color: #9b2001; margin: 0; font-weight: normal; line-height: 50px; text-align: center; font-size: 1em;}
+
+.bloc-autres-emissions .bloc1 .bloc-figure                                                                  {width: 183px; margin-left: auto; margin-right: auto; margin-top: 10px;}
+
+.bloc-autres-emissions .bloc1 .bloc-figure figure                                                           {margin:0;}
+
+/* *******************************
+ ************* Bloc PUB **********
+ ******************************* */
+
+.pub                                                                                                        {display: block; width: 728px; height: 100px; margin-bottom: 15px; margin-left: auto; margin-right: auto;}
+
+
+/* ****************************************
+ ************* Bloc Des Episodes **********
+ **************************************** */
+
+.bloc-page .episodes-page-accueil .img-episode-saison                                                       {width: 856px; height: auto;}
+
+.bloc-page .episodes-page-accueil .img-episode-saison figure                                                {width: 214px; height: 161px; margin:0; display: inline-block;}
+
+/* ******** Image saison 1 rouge ******** */
+
+.bloc-page .episodes-page-accueil .img-episode-saison  a.rouge figure.saison1-rouge                         {background-color: #9b2001; width: 214px; height: 161px; margin:0; display: inline-block; vertical-align: top;}
+
+.bloc-page .episodes-page-accueil .img-episode-saison  a.rouge:hover                                        {background-color: #ffffff; width: 214px; height: 176px;}
+
+.bloc-page .episodes-page-accueil .img-episode-saison  a.rouge figure.saison1-rouge p                       {margin:0; text-align: center; padding: 68px 5px 0 5px; color: white; font-size: 0.8em;}
+
+/* ******** Image saison 1 rouge ******** */
+
+/* ******** Image saison 1 gris ******** */
+
+.bloc-page .episodes-page-accueil .img-episode-saison  a.gris figure.saison1-gris                           {background-color: #c0c0c0; width: 214px; height: 161px; margin:0; display: inline-block; vertical-align: top;}
+
+.bloc-page .episodes-page-accueil .img-episode-saison  a.gris:hover                                         {background-color: #9b2001; width: 214px; height: 176px;}
+
+.bloc-page .episodes-page-accueil .img-episode-saison  a.gris figure.saison1-gris p                         {margin:0; text-align: center; padding: 68px 5px 0 5px; color: #9b2001; font-size: 0.8em;}
+
+/* ******** Image saison 1 gris ******** */
+
+.bloc-page .episodes-page-accueil .img-episode-saison  figure a img                                         {border:none;}
+
+.bloc-page .episodes-page-accueil .img-episode-saison  figure a:hover                                       {background-color: #a52101; width: 214px; height: 176px;}
+
+/* *********************************************
+ ************* FOOTER Episodes saison **********
+ ********************************************* */
+
+.bloc-page .episodes-page-accueil .footer-episode-saison                                                    {background-color: #dcdcdc; box-shadow: 0px 0px 10px #000; width: 856px; height: 53px; margin-bottom: 15px; padding: 1px 0;}
+
+.bloc-page .episodes-page-accueil .footer-episode-saison .pagination                                        {width: 80px; height: auto; margin-left: auto; margin-right: auto; margin-top: 10px;}
+
+.bloc-page .episodes-page-accueil .footer-episode-saison .pagination .lien-active                           {display: inline;}
+
+.bloc-page .episodes-page-accueil .footer-episode-saison .pagination a, .lien-active                        {color: #9b2001; padding-left: 10px; font-size: 1.3em;}
+
+.bloc-page .episodes-page-accueil .footer-episode-saison .pagination a:hover, .lien-active:hover            {color: #000000;}
+
+
+
+                                                           /* *********************************************
+                                                            **************** PAGE DES EPISODES ************
+                                                            ********************************************* */
+
+
+
+/* *********************************************
+ *************** PAGE EPISODE VIDEO ************
+ ********************************************* */
+
+.bloc-page .bloc-episode                                                                                    {width: 900px; height: auto; margin-left: auto; margin-right: auto;}
+/* *********************************************
+ *************** HEADER Episode ************
+ ********************************************* */
+.bloc-page .bloc-episode .header-episode                                                                    {background: -moz-linear-gradient( #a52101,#c52600); background: -webkit-linear-gradient( #a52101,#c52600); background: -ms-linear-gradient( #a52101,#c52600); background: -o-linear-gradient( #a52101,#c52600); background: linear-gradient( #a52101,#c52600); box-shadow: 0px 0px 2px #000; width: 640px; height: 44px; margin-top: 20px;}
+
+.bloc-page .bloc-episode .header-episode h1                                                                 {color: white; font-size: 0.8em; text-align: center; line-height: 44px;}
+/* *********************************************
+ *************** Video ************
+ ********************************************* */
+.bloc-page .bloc-episode .video                                                                             {background-color: #292929; width: 640px; height: 360px; float: left;}
+/* *********************************************
+ *************** Aside ************
+ ********************************************* */
+
+.bloc-page .bloc-episode .autres-videos                                                                     {background-color: #ffffff; border: 1px dashed #ff0000; padding-top: 7px; width: 216px; height: auto; float: right;}
+
+.bloc-page .bloc-episode .autres-videos .bloc-figure                                                        {width:174px; margin-left: auto; margin-right: auto;}
+
+.bloc-page .bloc-episode .autres-videos .bloc-figure a                                                      {text-decoration: none;}
+
+.bloc-page .bloc-episode .autres-videos .bloc-figure .voir-plus                                             {background-color:#363636; width: 80px; height: 32px; text-align: center; line-height: 31px; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px;}
+
+.bloc-page .bloc-episode .autres-videos .bloc-figure .voir-plus h3                                          {font-size: 0.9em; color: white; margin:0;}
+
+.bloc-page .bloc-episode .autres-videos figure                                                              {margin:0; display: inline;}
+
+/* *********************************************
+ ********************* Partage *****************
+ ********************************************* */
+.bloc-page .bloc-episode .partage                                                                           {background-color: #34393E; width: 640px; height: auto; clear: both; padding: 5px;}
+
+.bloc-page .bloc-episode .partage .bloc-partage                                                             {width: 590px; margin-left: auto; margin-right: auto; margin-top: 5px;}
+
+/* *********************************************
+ ********************** TEXTE ******************
+ ********************************************* */
+
+.bloc-page .texte-episode                                                                                   {width: 900px; height: auto; margin-left: auto; margin-right: auto;}
+
+.bloc-page .texte-episode .texte-francais                                                                   {background-color: #c0c0c0; width: 430px; height: auto; float: left; margin-top: 15px; margin-bottom: 20px; padding: 10px; text-align: justify; border: 1px dashed #a52101;}
+
+.bloc-page .texte-episode .texte-francais .drapeau                                                          {width: 75px; height: 47px; margin-left: auto; margin-right: auto; margin-top: 10px;}
+
+.bloc-page .texte-episode .texte-francais strong, .bloc-page .texte-episode .texte-anglais strong           {background-color: #9b2001; color: white; padding: 0 2px 0 2px; font-weight: normal;}
+
+.bloc-page .texte-episode .texte-francais .prophete, .bloc-page .texte-episode .texte-anglais .prophete     {background-color: #294456; color: white; padding: 0 2px 0 2px; font-weight: normal;}
+
+.bloc-page .texte-episode .texte-anglais                                                                    {background-color: #003737; width: 430px; height: auto; float: right; margin-top: 15px; margin-bottom: 20px; padding: 10px; text-align: justify; border: 1px dashed #ffffff;}
+
+.bloc-page .texte-episode .texte-anglais p                                                                  {color: white;}
+
+.bloc-page .texte-episode .texte-anglais .drapeau                                                           {width: 75px; height: 47px; margin-left: auto; margin-right: auto; margin-top: 10px;}
+
+
+/* *********************************************
+ ******************* PUB Episode ***************
+ ********************************************* */
+.pub-episode                                                                                                {display: block; width: 728px; height: 100px; margin-bottom: 15px; margin-left: auto; margin-right: auto; clear: both;}
+
+/* *********************************************
+ ******************* Commentaires ***************
+ ********************************************* */
+
+.commentaires                                                                                               {background-color: #ffffff; width: 800px; height: 500px; margin-left: auto; margin-right: auto; margin-bottom: 20px; padding: 15px; overflow-y: scroll; resize: both;}
+
+
+/* *********************************************
+ ********** Un Sourire d'Espoir - Saisons ******
+ ********************************************* */
+
+.bloc-page .un-sourire-espoir                                                                               {width: 830px; height: auto; margin-left: auto; margin-right: auto; margin-top: 30px; margin-bottom: 30px;}
+
+.bloc-page .un-sourire-espoir .saisonse                                                                     {background-color: #d14548; width: 272px; height: 560px; display: inline-block; border: 2px dotted #800040;}
+
+.bloc-page .un-sourire-espoir .saisonse a img.no-acces                                                      {cursor: not-allowed;}
+
+.annonce {
+    width: 700px;
+    height: auto;
+    margin: 10px auto;
+    border: 1px dashed #96CA2D;
+    background-color: seagreen;
+}
+
+.annonce p {
+    color: white;
+    text-align: center;
+}
